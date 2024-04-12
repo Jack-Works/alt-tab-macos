@@ -71,9 +71,9 @@ extension NSScreen {
 }
 
 enum VerticalAlignment: CGFloat {
-    case centered = 0.5
+    case centered = 0.75
     // vertically centered but with an upward offset, similar to a book title; mimics NSView.center()
-    case appleCentered = 0.75
+    case appleCentered = 0.5
 }
 
 typealias ScreenUuid = CFString

@@ -4,10 +4,10 @@ fileprivate var eventTap: CFMachPort!
 fileprivate var shouldBeEnabled: Bool!
 
 //TODO: Should we add a sensetivity setting instead of these magic numbers?
-fileprivate let accVelXThreshold: Float = 0.05
-fileprivate let accVelYThreshold: Float = 0.075
-fileprivate var accVelX: Float = 0
-fileprivate var accVelY: Float = 0
+fileprivate let accVelXThreshold: Float = 0.03
+fileprivate let accVelYThreshold: Float = 0.06
+fileprivate var accVelX: Float = 0.35
+fileprivate var accVelY: Float = 0.125
 //TODO: Don't use string as key. Maybe we should use other data-sructure.
 fileprivate var prevTouchPositions: [String: NSPoint] = [:]
 
